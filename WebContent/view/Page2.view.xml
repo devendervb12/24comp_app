@@ -2,7 +2,7 @@
 		controllerName="view.Page2" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="Page 2">
 		<content>
-	        <Button text="Goto Page3"/>
+	        <Button text="Goto Page3" press="gotoPage3"/>
 		</content>
 	</Page>
 </core:View>
