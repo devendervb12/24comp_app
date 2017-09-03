@@ -11,4 +11,4 @@ sap.ui.core.UIComponent.extend("smax.batch2402.Component", {
 		// initlaize the router
 		this.getRouter().initialize();
 	}
-})
+});

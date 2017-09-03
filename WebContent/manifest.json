@@ -12,20 +12,31 @@
 				{
 					"pattern" : "",
 					"name" : "firstPage",
-					"viewName" : "view.Page1"
+					"target" : ["fPage"]
 				
 				},
 				{
 					"pattern" : "p2",
 					"name" : "secondPage",
-					"viewName" : "view.Page2"
+					"target" : ["sPage"]
 				}, 
 				{
 					"pattern" : "p3",
 					"name" : "thirdPage",
-					"viewName" : "view.Page3"
+					"target" : "tPage"
 				}
-			]
+			],
+			"targets" : {
+			    "fPage" : {
+			       "viewName" : "view.Page1"
+			    },
+			    "sPage" : {
+			       "viewName" : "view.Page2"
+			    },
+			    "tPage" : {
+			      "viewName" : "view.Page3"
+			    }
+			}
 		}
   
   }
