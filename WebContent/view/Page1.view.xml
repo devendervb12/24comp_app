@@ -2,7 +2,19 @@
 		controllerName="view.Page1" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="Page 1">
 		<content>
-	         <Button text="Go to Page 2" press="gotoPage2"/>
+		      <List items="{/ProductSet}">
+		         <items>
+		           <StandardListItem title="{ProductID}"/>
+		         </items>
+		      </List>
+	       
 		</content>
+		<footer>
+		   <Bar>
+		      <contentRight>
+		                <Button text="Go to Page 2" press="gotoPage2"/>
+		      </contentRight>
+		   </Bar>
+		</footer>
 	</Page>
 </core:View>

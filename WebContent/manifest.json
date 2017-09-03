@@ -1,7 +1,20 @@
 {
+  "sap.app" : {
+      "dataSources" : {
+          "ZGW_BATCH23_PRODUCT01_SRV" : {
+               "uri" : "proxy/http/122.180.87.238:8000/sap/opu/odata/SAP/ZGW_BATCH23_PRODUCT01_SRV/",
+               "type" : "OData"
+          }
+      }
+  },
   "sap.ui5" : {
      "rootView" : "view.App",
-		"routing" : {
+     "models" : {
+        "" : {
+           "dataSource" : "ZGW_BATCH23_PRODUCT01_SRV"
+        }
+     },
+	"routing" : {
 			"config" : {
 				"routerClass" : "sap.m.routing.Router",
 				"controlId" : "idApp",
@@ -38,6 +51,5 @@
 			    }
 			}
 		}
-  
   }
 }
