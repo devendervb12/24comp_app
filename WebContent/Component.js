@@ -1,3 +1,4 @@
+
 sap.ui.core.UIComponent.extend("smax.batch2402.Component", {
 	metadata : {
 		manifest : "json"

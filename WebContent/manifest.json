@@ -29,7 +29,7 @@
 				
 				},
 				{
-					"pattern" : "p2",
+					"pattern" : "p2/{prod}",
 					"name" : "secondPage",
 					"target" : ["sPage"]
 				}, 

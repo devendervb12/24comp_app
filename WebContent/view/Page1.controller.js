@@ -17,6 +17,18 @@ sap.ui.controller("view.Page1", {
 		
 		oRouter.navTo("secondPage");
 		
+	},
+	onItemPress : function(oControlEvent){
+		
+		// need to pass productID
+		
+		var selectedProductID = oControlEvent.getSource().getTitle();
+		
+
+		debugger;
+//navigate to Page2
+		this.getOwnerComponent().getRouter().navTo("secondPage", {prod : selectedProductID });
+		
 	}
 
 });

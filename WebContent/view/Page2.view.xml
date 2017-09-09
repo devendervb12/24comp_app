@@ -1,8 +1,10 @@
 <core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
 		controllerName="view.Page2" xmlns:html="http://www.w3.org/1999/xhtml">
-	<Page title="Page 2">
+	<Page title="Product Details">
 		<content>
-	        <Button text="Goto Page3" press="gotoPage3"/>
+		<!-- data-sap-ui-xx-bindingSyntax="complex" -->
+		  <ObjectHeader title="{ProductID} Supplier id : {SupplierID}" intro="{Description}"/>
+	        
 		</content>
 	</Page>
 </core:View>

@@ -4,7 +4,9 @@
 		<content>
 		      <List items="{/ProductSet}">
 		         <items>
-		           <StandardListItem title="{ProductID}"/>
+		           <StandardListItem title="{ProductID}" type="Navigation" 
+		           press="onItemPress"
+		           />
 		         </items>
 		      </List>
 	       
